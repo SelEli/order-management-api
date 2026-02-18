@@ -71,6 +71,7 @@ Objectif : concevoir une API backend structurée en couches (Controller / Servic
 
 ## 📁 Structure du projet
 
+```
 src/
 ├── main/
 │   ├── java/
@@ -80,6 +81,7 @@ src/
 │       └── schema.sql
 └── test/
     └── ...
+```
 
 ---
 
