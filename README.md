@@ -70,3 +70,31 @@ Objectif : concevoir une API backend structurée en couches (Controller / Servic
 ---
 
 ## 📁 Structure du projet
+
+src/
+├── main/
+│   ├── java/
+│   │   └── ... (controllers, services, repositories, security)
+│   └── resources/
+│       ├── application.properties
+│       └── schema.sql
+└── test/
+└── ...
+
+
+---
+
+## ⚙ Fonctionnalités principales
+- Inscription et connexion utilisateur.  
+- Génération et validation de tokens JWT.  
+- Rôles USER / ADMIN.  
+- CRUD produits.  
+- CRUD commandes.  
+- Gestion des erreurs.  
+
+---
+
+## 📘 Qualité et documentation
+- API documentée via Swagger.  
+- Modèles persistés via JPA.  
+
