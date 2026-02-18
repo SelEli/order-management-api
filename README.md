@@ -79,8 +79,7 @@ src/
 │       ├── application.properties
 │       └── schema.sql
 └── test/
-└── ...
-
+    └── ...
 
 ---
 
