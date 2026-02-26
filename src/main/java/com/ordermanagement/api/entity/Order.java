@@ -3,6 +3,7 @@ package com.ordermanagement.api.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
@@ -14,6 +15,8 @@ public class Order {
     private Long id;
 
     private Long userId;
+
+    private BigDecimal total; // ← total calculé serveur
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     private List<OrderItem> items;
